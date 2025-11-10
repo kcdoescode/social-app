@@ -1,0 +1,129 @@
+
+.about-us-card {
+  /* Use the glass card effect */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  padding: 2rem 2.5rem;
+}
+
+.about-us-card h2 {
+  /* Use the "Pacifico" brand font */
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #0866ff;
+}
+
+.about-us-card h3 {
+  /* Use the "Inter" modern font */
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #050505;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.about-us-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.about-us-card .about-us-intro {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #050505;
+  text-align: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.about-us-card .stack-list,
+.about-us-card .credits-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.about-us-card .stack-list li,
+.about-us-card .credits-list li {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.about-us-card .contact-link {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #0866ff;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: rgba(8, 102, 255, 0.1);
+  transition: all 0.2s;
+}
+
+.about-us-card .contact-link:hover {
+  background-color: rgba(8, 102, 255, 0.2);
+  text-decoration: underline;
+}
+
+.about-us-card .credits-list a {
+  color: #0866ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-us-card .credits-list a:hover {
+  text-decoration: underline;
+}
+
+/* Dark Mode Overrides for About Us Page*/
+
+.theme-wrapper.dark .about-us-card {
+  background: rgba(28, 28, 30, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.theme-wrapper.dark .about-us-card h3 {
+  color: #fafafa;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+.theme-wrapper.dark .about-us-card p {
+  color: #b0b3b8;
+}
+
+.theme-wrapper.dark .about-us-card .about-us-intro {
+  color: #fafafa;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+.theme-wrapper.dark .about-us-card .stack-list li,
+.theme-wrapper.dark .about-us-card .credits-list li {
+  color: #b0b3b8;
+}
+
+.theme-wrapper.dark .about-us-card .contact-link {
+  background-color: rgba(8, 102, 255, 0.2);
+}
+
+.theme-wrapper.dark .about-us-card .contact-link:hover {
+  background-color: rgba(8, 102, 255, 0.3);
+}

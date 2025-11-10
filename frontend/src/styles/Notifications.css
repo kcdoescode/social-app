@@ -1,0 +1,111 @@
+
+.notification-page-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  padding: 1.5rem 0.5rem; 
+}
+
+.notification-page-card h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #050505;
+}
+
+.notification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-icon {
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+.notification-icon.like {
+  color: #d93025;
+}
+.notification-icon.comment {
+  color: #0866ff;
+}
+
+.notification-content {
+  flex-grow: 1;
+}
+
+.notification-content .post-author-link {
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+.notification-content .post-author-link strong {
+  font-size: 1.1rem; 
+}
+
+.notification-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.notification-text em {
+  font-style: italic;
+  color: #65676b;
+}
+
+.no-notifications {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+  color: #65676b;
+}
+
+
+
+.theme-wrapper.dark .notification-page-card {
+  background: rgba(28, 28, 30, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.theme-wrapper.dark .notification-page-card h2 {
+  color: #fafafa;
+}
+
+.theme-wrapper.dark .notification-item {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-wrapper.dark .notification-text {
+  color: #b0b3b8;
+}
+
+.theme-wrapper.dark .notification-text em {
+  color: #909090;
+}
+
+.theme-wrapper.dark .no-notifications {
+  color: #b0b3b8;
+}
+.notification-icon.follow {
+  color: #0866ff; 
+}
