@@ -1,5 +1,4 @@
-const BASE_URL = process.env.REACT_APP_API_BASE_URL || '/api';
-
+const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 async function fetchWithAuth(url, options = {}) {
   const config = {
     ...options,
