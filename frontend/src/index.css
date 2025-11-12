@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
 }
 
 
@@ -219,9 +219,10 @@ button.secondary:hover {
 }
 
 .post-date {
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   color: #65676b;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: right;
 }
 
 .post-content p {
