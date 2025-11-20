@@ -2,6 +2,13 @@
 
 A fully responsive social media application built with the MERN stack (MongoDB, Express, React, Node.js). It features real-time interactions, secure authentication, and a modern UI with dark mode support.
 
+SCREENSHOTS: <img width="1910" height="903" alt="image" src="https://github.com/user-attachments/assets/7d20c4bb-ccba-4612-8736-6133443f1960" /> 
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/86dee7b8-05fe-4386-8004-4a96307d968a" /> 
+<img width="1912" height="906" alt="image" src="https://github.com/user-attachments/assets/4677c35f-5c63-4078-a921-69c97791fd6f" />
+
+
+ 
+
 🚀 Live Demo
 
 Frontend (Vercel): https://social-app-two-sigma.vercel.app
